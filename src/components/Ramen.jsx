@@ -2,6 +2,8 @@ import { useGLTF, PresentationControls, Center } from "@react-three/drei";
 
 export default function Ramen(props) {
   const ramen = useGLTF("./models/Ramen/glTF/ramen-2.gltf");
+  //LOW POLY
+  //  const ramen = useGLTF("./models/low-ramen/ramen-low.gltf");
 
   return (
     <>
